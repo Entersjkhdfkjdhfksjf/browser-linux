@@ -30,14 +30,13 @@ color: white;
 <script src="buttons.js" defer></script>
 <h4 class="fluff">Welcome to Browser Linux</h4>
 <p id="waiting_text">
- Waiting for boot to complete, please wait . . . <br>
+ Waiting for Linux to boot <br>
 </p>
 <div id="screen_container">
     <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
     <canvas id="vga" style="display: none" onclick="emulator.lock_mouse()"></canvas>
 </div>
 <div id="terminal"></div>
-<h4 class="fluff">It's Linux, in a Browser</h4>
 <img class="fluff" id="toggle" src="icon/toolbox.png" onclick="toggleToolbox()" width="25px" height="25px"></img>
 <div id="toolbox_div" class="toolbox">
 <button id="save_restore" onclick="saveRestore()">save current point</button>

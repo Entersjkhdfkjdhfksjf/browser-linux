@@ -1,18 +1,11 @@
-### **browser linux:** _run Linux in your browser_
-
-### **Now on [codeberg](https://codeberg.org/darin755/browser-linux)**
-
-## [LIVE DEMO](https://darin755.github.io/browser-linux/)
-
-<img src="docs/images/screenshot.png">
+### **Xbox Linux:** _run Linux on your xbox_
 
 ### About
 
- - Browser linux is a project to get a linux command line in the browser
+ - Xbox linux is a project to get linux running on your Xbox using the Microsoft Edge browser.
+ - It is based on the browser-linux project.
 
- - It originally ran slitaz but it was moved to a custom buildroot config
-
-   - See https://github.com/Darin755/browser-buildroot
+   - See https://github.com/Darin755/browser-linux
 
  - It uses the following libraries
 
@@ -28,6 +21,14 @@
 
  - open the toolbox (the icon at the bottom) and press save now and/or enable autosave
  - See [saving.md](docs/saving.md)
+## How to run
+- First open the Microsoft edge browser.
+- Next open this GitHub repo and open the GitHub Pages deployment
+- Append "?mem=65" to the end of the url
+- Once the Boot loader appears choose the third option (The Gui does not work yet)
+- Scroll down and click on the setting icpn, once done click on the fullscreen button.
+- Wait (This will probably take some time)
+- Enjoy Tiny Core Linux on you Xbox
 
 ## How to embed
 
@@ -48,15 +49,6 @@
 ## Limitations
  - It is a bit slow
    - It is fine for running simple programs but as soon as you try to run anything that requires cpu it will slow down immensely because the cpu is emulated by v86
- - No Man pages
-   - Man pages are to large and are not included. 
- - No reliable package manager
-   - static-get get is good for small programs but is not a functional package manager. It also suffers limitations due to internet. See [internet.md](docs/internet.md)
-
-## Contributing
- - The To Do list is located [here](todo.md) but feel free to suggest what you think would be beneficial
- - Don't hesitate to open a issue, pull request or discussion
- - If you would like to see packages added, please open a [discussion](https://github.com/Darin755/browser-linux/discussions)
 
 ## License
 
